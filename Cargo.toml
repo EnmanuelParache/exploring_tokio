@@ -1,0 +1,11 @@
+[package]
+name = "exploring_tokio"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+log = "0.4.22"
+syslog = "7.0.0"
+tokio = { version = "1.38.1", features = ["full"] }
+
+
